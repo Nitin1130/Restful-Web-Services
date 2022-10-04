@@ -1,6 +1,8 @@
 package com.restful.springboot.restfulwebservices.user;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
+
+import com.restful.springboot.restfulwebservices.post.Post;
 import jakarta.validation.Valid;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
@@ -53,4 +55,6 @@ public class UserResource {
     public void deleteUser(@PathVariable int id) throws UserNotFoundException {
         service.deleteById(id);
     }
+
+
 }
