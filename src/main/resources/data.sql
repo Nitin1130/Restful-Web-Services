@@ -22,3 +22,6 @@ values(20003, 'I want to get AWS Certified', 10002);
 insert into post(id, description, user_id)
 values(20004, 'I want to learn Multi Cloud', 10002);
 
+
+
+
